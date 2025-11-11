@@ -16,6 +16,10 @@ function App() {
        <Button/>
        <Footer/>
        <Student name = "Priyanka" age = {50} isStudent = {true}/>
+       <Student name = "Nezuko" age = {49} isStudent = {false}/>
+       <Student name = "Zenitsu" age = {51} isStudent = {true}/>
+       <Student name = "Giyu"/>
+       <Student/>
 
      </>
   );
