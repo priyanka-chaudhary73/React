@@ -33,3 +33,9 @@
   color: hsl(0, 26%, 74%);
 }
 
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+}

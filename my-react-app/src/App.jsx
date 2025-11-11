@@ -3,6 +3,7 @@ import Footer from './components/Footer.jsx'
 import Food from './components/Food.jsx'
 import Card from './components/Card.jsx';
 import Button from './components/Button.jsx';
+import Student from './components/Student.jsx';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
        <Card/>
        <Button/>
        <Footer/>
+       <Student name = "Priyanka" age = {50} isStudent = {true}/>
 
      </>
   );
