@@ -5,6 +5,7 @@ import Card from './components/Card.jsx';
 import Button from './components/Button.jsx';
 import Student from './components/Student.jsx';
 import UserGreeting from './components/UserGreeting.jsx';
+import List from './components/List.jsx';
 
 
 function App() {
@@ -22,8 +23,7 @@ function App() {
        <Student name = "Giyu"/>
        <Student/>
        <UserGreeting isLoggedIn= {true} username = "Priyanka"/>
-
-     </>
+       <List/>
   );
 }
 
