@@ -9,6 +9,18 @@ import List from './components/List.jsx';
 
 
 function App() {
+
+  const fruits = [{id : 1, name : "apple",      calories : 95}, 
+        {id : 2, name : "orange", calories : 73}, 
+        {id : 3, name : "banana", calories : 105}, 
+        {id : 4, name : "coconut", calories : 1405}, 
+        {id : 5, name : "pineapple", calories : 453}];
+
+        const vegetables = [{id : 6, name : "cucumber",  calories : 14}, 
+        {id : 7, name : "potatoes", calories : 77}, 
+        {id : 8, name : "broccoli", calories : 34}, 
+        {id : 9, name : "carrots", calories : 41}, 
+        {id : 10, name : "tomato", calories : 20}];
  
   return(
     <>
@@ -23,7 +35,11 @@ function App() {
        <Student name = "Giyu"/>
        <Student/>
        <UserGreeting isLoggedIn= {true} username = "Priyanka"/>
-       <List/>
+       {fruits.length > 0 &&
+       <List items = {fruits} category = "Fruits"/>}
+       {vegetables.length > 0 &&
+       <List items = {vegetables} category = "Vegetables"/>}
+    </>
   );
 }
 
