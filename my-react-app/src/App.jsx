@@ -8,6 +8,8 @@ import UserGreeting from './components/UserGreeting.jsx';
 import List from './components/List.jsx';
 import Button1 from './components/Button1.jsx';
 import ProfilePicture from './components/ProfilePicture.jsx';
+import MyComponent from './components/MyComponent.jsx';
+import Counter from './components/Counter.jsx';
 
 
 function App() {
@@ -43,6 +45,8 @@ function App() {
        <List items = {vegetables} category = "Vegetables"/>}
        <Button1/>
        <ProfilePicture/>
+       <MyComponent/>
+       <Counter/>
     </>
   );
 }

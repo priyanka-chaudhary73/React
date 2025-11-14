@@ -44,6 +44,10 @@
   margin: 0;
 }
 
+.student p:hover{
+  background-color: hsl(0, 0%, 75%);
+}
+
 .welcome-message{
   font-size: 1.5em;
   background-color: hwb(133 3% 21%);
@@ -63,7 +67,7 @@
 }
 
 .list-category{
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   color: hsl(0, 0%, 20%);
   margin-bottom: 10px;
@@ -74,14 +78,42 @@
 }
 
 .list-items li{
-  font-size: 1.5em;
+  font-size: 1.25em;
   list-style: none;
   color: hsl(0, 0%, 25%); 
   text-align: center;
   margin: 0;
 }
 
-.list-items li.hover{
-  color : hsl(0, 0%, 45%);
+.list-items li:hover{
+  color : hsl(0, 0%, 75%);
   cursor: pointer;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.count-display{
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 40px;
+  font-size: 1.15em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(197, 100%, 50%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color: hsl(197, 100%, 80%);
 }
