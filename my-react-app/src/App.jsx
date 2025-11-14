@@ -12,6 +12,7 @@ import MyComponent from './components/MyComponent.jsx';
 import Counter from './components/Counter.jsx';
 import MyComponent1 from './components/MyComponent1.jsx';
 import ColorPicker from './components/ColorPicker.jsx';
+import MyComponent2 from './components/MyComponent2.jsx';
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
        <Counter/>
        <MyComponent1/>
        <ColorPicker/>
+       <MyComponent2/>
     </>
   );
 }
