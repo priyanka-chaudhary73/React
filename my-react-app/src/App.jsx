@@ -11,6 +11,7 @@ import ProfilePicture from './components/ProfilePicture.jsx';
 import MyComponent from './components/MyComponent.jsx';
 import Counter from './components/Counter.jsx';
 import MyComponent1 from './components/MyComponent1.jsx';
+import ColorPicker from './components/ColorPicker.jsx';
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
        <MyComponent/>
        <Counter/>
        <MyComponent1/>
+       <ColorPicker/>
     </>
   );
 }
