@@ -14,6 +14,7 @@ import MyComponent1 from './components/MyComponent1.jsx';
 import ColorPicker from './components/ColorPicker.jsx';
 import MyComponent2 from './components/MyComponent2.jsx';
 import MyComponent3 from './components/MyComponent3.jsx';
+import MyComponent4 from './components/MyComponent4.jsx';
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
        <ColorPicker/>
        <MyComponent2/>
        <MyComponent3/>
+       <MyComponent4/>
     </>
   );
 }
