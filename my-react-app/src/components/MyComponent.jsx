@@ -20,6 +20,7 @@ function MyComponent(){
     }
 
     return ( <div>
+
         <p> Name: {name}</p>
         <button onClick = {updateName}>Set Name</button>
 

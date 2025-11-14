@@ -10,6 +10,7 @@ import Button1 from './components/Button1.jsx';
 import ProfilePicture from './components/ProfilePicture.jsx';
 import MyComponent from './components/MyComponent.jsx';
 import Counter from './components/Counter.jsx';
+import MyComponent1 from './components/MyComponent1.jsx';
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
        <ProfilePicture/>
        <MyComponent/>
        <Counter/>
+       <MyComponent1/>
     </>
   );
 }

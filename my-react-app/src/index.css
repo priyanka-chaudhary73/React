@@ -99,6 +99,7 @@
   font-size: 5em;
   margin-top: 0;
   margin-bottom: 50px;
+
 }
 
 .counter-button{
@@ -112,8 +113,11 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 50px;
+
 }
 
 .counter-button:hover{
   background-color: hsl(197, 100%, 80%);
 }
+
