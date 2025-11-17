@@ -18,6 +18,7 @@ import MyComponent4 from './components/MyComponent4.jsx';
 import MyComponent5 from './components/MyComponent5.jsx';
 import ToDoList from './components/ToDoList.jsx';
 import MyComponent7 from './components/MyComponent7.jsx';
+import DigitalClock from './components/DigitalClock.jsx';
 
 
 
@@ -64,6 +65,7 @@ function App() {
        <MyComponent5/>
        <ToDoList/>
        <MyComponent7/>
+       <DigitalClock/>
     </>
   );
 }

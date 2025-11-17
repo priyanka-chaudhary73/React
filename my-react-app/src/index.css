@@ -248,3 +248,32 @@ li{
   font-size: 1.5rem;
   margin-left: 10px;
 }
+body {
+  background-image: url(download.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.clock-container {
+  width: 100vw;
+  padding: 20px 0;
+  background: rgba(255, 255, 255, 0.05); /* transparent glass effect */
+  backdrop-filter: blur(8px);             /* stronger blur */
+}
+
+.clock {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.7);
+}
