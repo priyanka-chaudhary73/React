@@ -1,18 +1,20 @@
 import React, { useContext } from "react";
 import { UserContext } from "./MyComponentA";
-import MyComponentD from './MyComponentD.jsx'
+import MyComponentAb from './MyComponentAb.jsx';
 
-function MyComponentC(){
+function MyComponentC() {
 
     const user = useContext(UserContext);
 
-    return(
+    return (
         <div className="box">
             <h1>MyComponentC</h1>
-            <h2>{'Hello again ${user}'}</h2>
-            <MyComponentD/>
+            <h2>{`Hello again ${user}`}</h2>
+            <MyComponentAb />
         </div>
     );
 }
 
 export default MyComponentC;
+
+

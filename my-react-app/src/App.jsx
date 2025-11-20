@@ -19,11 +19,11 @@ import MyComponent5 from './components/MyComponent5.jsx';
 import ToDoList from './components/ToDoList.jsx';
 import MyComponent7 from './components/MyComponent7.jsx';
 import DigitalClock from './components/DigitalClock.jsx';
-import ComponentA from './components/MyComponentA.jsx';
-import ComponentB from './components/MyComponentB.jsx';
-import ComponentC from './components/MyComponentC.jsx';
-import ComponentD from './components/MyComponentD.jsx';
 import MyComponentAa from './components/MyComponentAa.jsx';
+import MyComponentA from './components/MyComponentA.jsx';
+import MyComponentB from './components/MyComponentB.jsx';
+import MyComponentC from './components/MyComponentC.jsx';
+import MyComponentAb from './components/MyComponentAb.jsx';
 
 
 
@@ -72,9 +72,9 @@ function App() {
        <MyComponent7/>
        <DigitalClock/>
        <MyComponentA/>
-       <MyComponentB/>
+       <MyComponentAb/>
        <MyComponentC/>
-       <MyComponentD/>
+       <MyComponentB/>
        <MyComponentAa/>
       </>
   );
