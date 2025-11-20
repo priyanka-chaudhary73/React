@@ -1,16 +1,16 @@
 import React, { useContext } from "react";
-import { UserContext } from "./ComponentA";
+import { UserContext } from "./MyComponentA";
 
-function ComponentD(){
+function MyComponentD(){
 
     const user = useContext(UserContext);
 
     return(
         <div className="box">
-            <h1>ComponentD</h1>
+            <h1>MyComponentD</h1>
             <h2>{'Bye ${user}'}</h2>
         </div>
     );
 }
 
-export default ComponentD;
+export default MyComponentD;

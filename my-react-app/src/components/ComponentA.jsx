@@ -1,9 +1,9 @@
 import React, { useState, createContext} from 'react'
-import ComponentB from './ComponentB.jsx';
+import MyComponentB from './MyComponentB.jsx';
 
 export const UserContext = createContext();
 
-function ComponentA(){
+function MyComponentA(){
 
     const[user, setUser] = useState("Priyanka");
      
@@ -18,4 +18,4 @@ function ComponentA(){
     );
 }
 
-export default ComponentA;
+export default MyComponentA;
