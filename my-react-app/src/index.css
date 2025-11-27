@@ -231,11 +231,12 @@ li{
   font-size: 2rem;
   font-weight: bold;
   padding: 15px;
-  background-color: hsl(0, 0%, 97%);
+  background-color: rgb(27, 85, 85);
   margin-bottom: 10px;
   border:3px solid hsla(0, 0%, 85%, 0.75);
   border-radius: 25px;
   display: flex;
+  justify-content:center ;
   align-items: center;
 }
 

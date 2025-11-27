@@ -8,7 +8,7 @@ function MyComponentAb(){
     return(
         <div className="box">
             <h1>MyComponentAb</h1>
-            <h2>{'Bye ${user}'}</h2>
+            <h2>{`Bye ${user}`}</h2>
         </div>
     );
 }

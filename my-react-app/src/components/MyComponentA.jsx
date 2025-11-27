@@ -10,9 +10,9 @@ function MyComponentA(){
     return(
         <div className="box">
             <h1>ComponentA</h1>
-            <h2>{'Hello ${user}'}</h2>
+            <h2>{`Hello ${user}`}</h2>
             <UserContext.Provider value = {user}>
-            <ComponentB user = {user}/>
+            <MyComponentB user = {user}/>
             </UserContext.Provider>
         </div>
     );
